@@ -7,7 +7,7 @@ const qrcode = require('qrcode');
 const app = express();
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
-const PORT = 8080;
+
 
 app.use(express.json());
 
